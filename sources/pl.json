@@ -1,0 +1,123 @@
+{
+  "title": "Bartosz Siudak programista i przedsiębiorca.",
+  "head": {
+    "title": "siudak.com Bartosz Siudak programista i przedsiębiorca.",
+    "description": "",
+    "keywords": ""
+  },
+  "content": [
+    {
+      "title": "O mnie i o technologiach",
+      "path": "o-mnie-i-o-technologiach",
+      "type": "text",
+      "description": [
+        "Specjalizuję się w pisaniu oprogramowania dla firm i korporacji.",
+        "Dzięki praktycznej znajomości najnowszych technologi nie ma znaczenia na jakim systemie operacyjnym aplikacja ma działać.",
+        "Może być używana zarówno na urządzeniach mobilnych jak i komputerach czy choćby przeglądarkach internetowych.",
+        "Pracę jako programista zacząłem już w 2002 roku i od tamtej pory cały czas zgłebiam wiedzę i się rozwijam.",
+        "Uwielbiam nowinki programistyczne i oddaję się w całości podążaniem za trendami w moim zawodzie, a pisanie kodu zawsze zaczynam od testów! ( TDD )"
+      ]
+    },
+    {
+      "title": "Jak pracuję",
+      "path": "jak-pracuje",
+      "type": "text",
+      "description": [
+        "Obecnie jestem Senior JavaScript Developerem współparcującym z Britenet i najchętniej korzystam z takich technologii jak ReactJS, ES6 ( Webpack, Babel ), StyledComponents.",
+        "Od strony serwerowej wykorzystuję NodeJS i jego popularne biblioteki + MongoDB.",
+        "Pracuję zdalnie w środowisku międzynarodowym od ponad 8 lat ( Scrum/Agile )."
+      ]
+    },
+    {
+      "title": "Kim jestem prywatnie",
+      "path": "kim-jestem-prywatnie",
+      "type": "text",
+      "description": [
+        "Urodziłem się w 1983r. Jestem żonaty i mam dwójkę dzieci.",
+        "Wolne chwile wykorzystuję na sport ( piłka nożna i siłownia ). Uwielbiam podróże - często z rodziną spędzamy czas poza domem.",
+        "Poza informatyką lubię poszerzać swoją wiedzę w zakresie mechaniki kwantowej oraz światowego biznesu.",
+        "Kocham dzielić się zdobytą przez lata wiedzą i staram się czynnie uczestniczyć w eventach organizowanych dla nas - programistów."
+      ]
+    },
+    {
+      "title": "Języki programowania",
+      "path": "jezyki-programowania",
+      "type": "rating",
+      "description": [
+        {
+          "title": "JavaScript",
+          "rate": "6/6"
+        },
+        {
+          "title": "PHP ( ostatnio używane w 2010 roku )",
+          "rate": "3/6"
+        }
+      ]
+    },
+    {
+      "title": "Najistotniejsze technologie i biblioteki",
+      "path": "naistotniejsze-technologie-i-biblioteki",
+      "type": "rating",
+      "description": [
+        {
+          "title": "ES6/7",
+          "rate": "6/6"
+        },
+        {
+          "title": "ReactJS",
+          "rate": "6/6"
+        },
+        {
+          "title": "ReactNative",
+          "rate": "4/6"
+        },
+        {
+          "title": "AngularJS ( ostatnio używane w 2015 roku )",
+          "rate": "3/6"
+        },
+        {
+          "title": "Webpack",
+          "rate": "5/6"
+        },
+        {
+          "title": "CSS/Sass/Less",
+          "rate": "6/6"
+        },
+        {
+          "title": "StyledComponents",
+          "rate": "6/6"
+        },
+        {
+          "title": "Git",
+          "rate": "6/6"
+        },
+        {
+          "title": "MongoDB",
+          "rate": "5/6"
+        },
+        {
+          "title": "SQL ( ostatnio używane w 2015 roku )",
+          "rate": "4/6"
+        }
+      ]
+    },
+    {
+      "title": "Narzędzia",
+      "path": "narzedzia",
+      "type": "text",
+      "description": [
+        "Pracuję zarówno na Linux, MacOSX, Windows ( nie lubię ;( ), a w pracy używam JIRA, Confluence, GitHub/GitLab/BitBucket."
+      ]
+    },
+    {
+      "title": "Kontakt",
+      "path": "kontakt",
+      "type": "text",
+      "description": []
+    }
+  ],
+  "footer": {
+    "title": "Kontakt",
+    "id": "kontakt"
+  }
+}

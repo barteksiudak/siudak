@@ -1,0 +1,104 @@
+{
+  "title": "siudak.com Bartosz Siudak programista i przetsiębiorca.",
+  "head": {
+    "title": "siudak.com Bartosz Siudak programista i przetsiębiorca.",
+    "description": "",
+    "keywords": ""
+  },
+  "content": [
+    {
+      "title": "Informacje",
+      "type": "text",
+      "description": [
+        "Specjalizuję się w pisaniu oprogramowania dla firm i korporacji.",
+        "Dzięki praktycznej znajomości najnowszych technologi nie ma znaczenia na jaki system operacyjny aplikacja ma być napisana.",
+        "Może działać tak samo zarówno na urządzeniach mobilnych jak i komputerach czy choćby przeglądarkach internetowych.",
+        "Pracę jako programista zacząłem już w 2002 roku i od tamtej pory cały czas zgłebiam wiedzę i się rozwijam.",
+        "Uwielbiam nowinki programistyczne i oddaję się w całości podążaniem za trędami w moim zawodzie, a pisanie kodu zawsze zaczynam od testów! ( TDD )"
+      ]
+    },
+    {
+      "title": "",
+      "type": "text",
+      "description": [
+        "Obecnie jestem Senior JavaScript Developerem współparcującym z Britenet i najchętniej korzystam z takich technologii jak ReactJS, ES6 ( Webpack, Babel ), StyledComponents.",
+        "Od strony serwerowej wykorzystuję NodeJS i jego popularne biblioteki  + MongoDB.",
+        "Pracuję zdalnie w środowisku międzynarodowym od ponad 8 lat ( Scrum/Agile )."
+      ]
+    },
+    {
+      "title": "",
+      "type": "text",
+      "description": [
+        "Kocham dzielić się zdobytą przez lata wiedzą i staram się czynnie uczestniczyć w eventach organizowanych dla nas - programistów."
+      ]
+    },
+    {
+      "title": "Języki programowania",
+      "type": "rating",
+      "content": [
+        {
+          "title": "JavaScript",
+          "rate": "6/6"
+        },
+        {
+          "title": "PHP ( ostatnio używane w 2010 roku )",
+          "rate": "3/6"
+        }
+      ]
+    },
+    {
+      "title": "Najistotniejsze technologie",
+      "type": "rating",
+      "content": [
+        {
+          "title": "ES6/7",
+          "rate": "6/6"
+        },
+        {
+          "title": "ReactJS",
+          "rate": "6/6"
+        },
+        {
+          "title": "ReactNative",
+          "rate": "4/6"
+        },
+        {
+          "title": "AngularJS ( ostatnio używane w 2015 roku )",
+          "rate": "3/6"
+        },
+        {
+          "title": "Webpack",
+          "rate": "5/6"
+        },
+        {
+          "title": "CSS/Sass/Less",
+          "rate": "6/6"
+        },
+        {
+          "title": "StyledComponents",
+          "rate": "6/6"
+        },
+        {
+          "title": "Git",
+          "rate": "6/6"
+        },
+        {
+          "title": "MongoDB",
+          "rate": "5/6"
+        },
+        {
+          "title": "SQL",
+          "rate": "5/6"
+        }
+      ]
+    },
+    {
+      "title": "",
+      "type": "text",
+      "description": [
+        "Pracuję zarówno na Linux, MacOSX, Windows ( nie lubię ;( ), a w pracy używam JIRA, Confluence, GitHub/GitLab/BitBucket."
+      ]
+    }
+  ]
+}
