@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
@@ -19,6 +19,8 @@ export default function App({
     head: { title: titleHeader, description, keywords },
   },
 }) {
+  const tabIndexRef = useRef(1);
+
   return (
     <>
       <Head>
@@ -31,10 +33,15 @@ export default function App({
         <Cover />
         <AppStyled>
           <div className="container">
-            <NavBar content={content} />
+            <NavBar content={content} tabIndexRef={tabIndexRef} />
             <Content content={content} title={title} />
           </div>
-          <Footer id={footerId} title={footerTitle} titleHeader={titleHeader} />
+          <Footer
+            id={footerId}
+            title={footerTitle}
+            titleHeader={titleHeader}
+            tabIndexRef={tabIndexRef}
+          />
         </AppStyled>
       </ThemeProvider>
     </>

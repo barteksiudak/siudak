@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import LinkStyled from './LinkStyled';
 
-export default function Link({ href, alt, children, target }) {
+export default function Link({ href, alt, children, target, tabIndex }) {
   return (
-    <LinkStyled href={href} alt={alt} target={target}>
+    <LinkStyled href={href} alt={alt} target={target} tabIndex={tabIndex}>
       {children}
     </LinkStyled>
   );
@@ -19,8 +19,10 @@ Link.propTypes = {
     PropTypes.node,
     PropTypes.arrayOf(PropTypes.node),
   ]).isRequired,
+  tabIndex: PropTypes.number,
 };
 
 Link.defaultProps = {
   target: '_self',
+  tabIndex: null,
 };
