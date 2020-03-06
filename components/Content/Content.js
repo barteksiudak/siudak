@@ -16,7 +16,9 @@ export default function Content({ content, title: contentTitle }) {
       <Image
         src="/images/profile.jpg"
         alt={contentTitle}
-        type="profile"
+        circle
+        borderWidth="xBig"
+        borderColor="middle"
       />
       {content.map(({ title, path, type, description }) => (
         <Description

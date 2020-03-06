@@ -52,14 +52,6 @@ const borderRadius = {
   common: 2,
 };
 
-const image = {
-  profile: {
-    'max-width': '100%',
-    border: `${size.xBig}px solid ${color.middle}`,
-    'border-radius': '50%',
-  },
-};
-
 // https://material.io/tools/icons
 const icon = {
   star:
@@ -90,7 +82,6 @@ const theme = {
   size,
   animation,
   borderRadius,
-  image,
   icon,
   breakpointsArray,
   breakpoints,

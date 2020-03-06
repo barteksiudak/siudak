@@ -23,11 +23,7 @@ export default function App({
     <>
       <Head>
         <title key="title">{titleHeader}</title>
-        <meta
-          name="description"
-          content={description}
-          key="description"
-        />
+        <meta name="description" content={description} key="description" />
         <meta name="keywords" content={keywords} key="keywords" />
       </Head>
       <ThemeProvider theme={mainTheme}>
@@ -38,7 +34,7 @@ export default function App({
             <NavBar content={content} />
             <Content content={content} title={title} />
           </div>
-          <Footer id={footerId} title={footerTitle} />
+          <Footer id={footerId} title={footerTitle} titleHeader={titleHeader} />
         </AppStyled>
       </ThemeProvider>
     </>
@@ -53,9 +49,8 @@ App.propTypes = {
       description: PropTypes.string,
       keywords: PropTypes.string,
     }).isRequired,
-    content: PropTypes.arrayOf(
-      PropTypes.shape({ title: PropTypes.string }),
-    ).isRequired,
+    content: PropTypes.arrayOf(PropTypes.shape({ title: PropTypes.string }))
+      .isRequired,
     footer: PropTypes.shape({
       id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
