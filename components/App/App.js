@@ -11,7 +11,7 @@ import { main as mainTheme } from '../../themes';
 import AppGlobalStyled from './AppGlobalStyled';
 import AppStyled from './AppStyled';
 
-export default function App({
+function App({
   content: {
     title,
     content,
@@ -27,6 +27,7 @@ export default function App({
         <title key="title">{titleHeader}</title>
         <meta name="description" content={description} key="description" />
         <meta name="keywords" content={keywords} key="keywords" />
+        <link rel="canonical" href="http://siudak.com" />
       </Head>
       <ThemeProvider theme={mainTheme}>
         <AppGlobalStyled />
@@ -48,8 +49,11 @@ export default function App({
   );
 }
 
+export default App;
+
 App.propTypes = {
   content: PropTypes.shape({
+    lang: PropTypes.string,
     title: PropTypes.string,
     head: PropTypes.shape({
       title: PropTypes.string,

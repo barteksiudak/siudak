@@ -1,9 +1,10 @@
 {
+  "lang": "en-EN",
   "title": "siudak.com Bartosz Siudak programista i przetsiębiorca.",
   "head": {
-    "title": "siudak.com Bartosz Siudak programista i przetsiębiorca.",
-    "description": "",
-    "keywords": ""
+    "title": "siudak.com Bartosz Siudak programista i przedsiębiorca.",
+    "description": "Bartosz Siudak - Senior JavaScript Developer. Najchętniej korzystam z takich technologii jak ReactJS, ES6 ( Webpack, Babel ), StyledComponents.",
+    "keywords": "Bartosz Siudak, Senior JavaScript Developer, Senior React developer"
   },
   "content": [
     {

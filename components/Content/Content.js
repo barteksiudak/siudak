@@ -10,7 +10,7 @@ import Image from '../Image';
 export default function Content({ content, title: contentTitle }) {
   return (
     <ContentStyled>
-      <Text title color="primary" center>
+      <Text as="h1" size="medium" color="primary" center>
         {contentTitle}
       </Text>
       <Image
@@ -20,7 +20,12 @@ export default function Content({ content, title: contentTitle }) {
         borderWidth="xBig"
         borderColor="middle"
       />
-      {content.map(({ title, path, type, description }) => (
+      {content.map(({
+        title,
+        path,
+        type,
+        description,
+      }) => (
         <Description
           key={`content-${title}`}
           title={title}
