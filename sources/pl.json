@@ -24,9 +24,9 @@
       "path": "jak-pracuje",
       "type": "text",
       "description": [
-        "Obecnie jestem Senior JavaScript Developerem współparcującym z Britenet i najchętniej korzystam z takich technologii jak ReactJS, ES6 ( Webpack, Babel ), StyledComponents.",
+        "Jako Senior JavaScript Developer najchętniej korzystam z takich technologii jak ReactJS, NextJS, ReactNative ( Redux, MobX ), ES6+ ( Webpack, Babel ), StyledComponents.",
         "Od strony serwerowej wykorzystuję NodeJS i jego popularne biblioteki + MongoDB.",
-        "Pracuję zdalnie w środowisku międzynarodowym od ponad 8 lat ( Scrum/Agile )."
+        "Pracuję zdalnie w środowisku międzynarodowym od 2009 roku ( Scrum/Agile )."
       ]
     },
     {
@@ -73,12 +73,12 @@
           "rate": "4/6"
         },
         {
-          "title": "AngularJS ( ostatnio używane w 2015 roku )",
-          "rate": "3/6"
+          "title": "AngularJS",
+          "rate": "4/6"
         },
         {
           "title": "Webpack",
-          "rate": "5/6"
+          "rate": "6/6"
         },
         {
           "title": "CSS/Sass/Less",
@@ -107,7 +107,7 @@
       "path": "narzedzia",
       "type": "text",
       "description": [
-        "Pracuję zarówno na Linux, MacOSX, Windows ( nie lubię ;( ), a w pracy używam JIRA, Confluence, GitHub/GitLab/BitBucket."
+        "Pracuję zarówno na Linux, MacOS, Windows, a w pracy używam JIRA, Confluence, GitHub/GitLab/BitBucket."
       ]
     },
     {
